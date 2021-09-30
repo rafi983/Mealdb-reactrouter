@@ -29,7 +29,7 @@ const MealDetail = () => {
 
   return (
     <Col>
-      <Card className="meal" style={{ width: "25rem", margin: "0 auto" }}>
+      <Card className="meal" style={{ width: "25rem", margin: "5rem auto" }}>
         <Card.Img variant="top" src={strMealThumb} className="meal-img" />
         <Card.Body>
           <Card.Title>{strMeal}</Card.Title>
