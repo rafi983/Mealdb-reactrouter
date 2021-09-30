@@ -35,7 +35,7 @@ const Meals = () => {
       </InputGroup>
 
       <Row xs={1} md={3} className="g-4 meals-container">
-        {meals.map((meal) => (
+        {meals?.map((meal) => (
           <Meal meal={meal}></Meal>
         ))}
       </Row>
