@@ -7,8 +7,17 @@ const NavMenu = () => {
   return (
     <Navbar variant="dark" className="mealdb-nav">
       <Container>
-        <Navbar.Brand href="#home" className="nav-brand">
-          TheMealDb
+        <Navbar.Brand className="nav-brand">
+          <NavLink
+            to="/header"
+            style={{ textDecoration: "none", color: "#ff9e32" }}
+            activeStyle={{
+              fontWeight: "bold",
+              color: "white",
+            }}
+          >
+            TheMealdB
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -19,23 +28,10 @@ const NavMenu = () => {
                 style={{ textDecoration: "none", color: "#ff9e32" }}
                 activeStyle={{
                   fontWeight: "bold",
-                  color: "red",
+                  color: "white",
                 }}
               >
                 Home
-              </NavLink>
-            </Nav.Link>
-
-            <Nav.Link className="nav-menu">
-              <NavLink
-                to="/about"
-                style={{ textDecoration: "none", color: "#ff9e32" }}
-                activeStyle={{
-                  fontWeight: "bold",
-                  color: "red",
-                }}
-              >
-                About
               </NavLink>
             </Nav.Link>
 
@@ -45,7 +41,7 @@ const NavMenu = () => {
                 style={{ textDecoration: "none", color: "#ff9e32" }}
                 activeStyle={{
                   fontWeight: "bold",
-                  color: "red",
+                  color: "white",
                 }}
               >
                 Meals

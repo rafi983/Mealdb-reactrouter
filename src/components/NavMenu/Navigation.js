@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "../About/About";
 import Header from "../Header/Header";
 import MealDetail from "../MealDetail/MealDetail";
 import Meals from "../Meals/Meals";
@@ -20,10 +19,6 @@ const Navigation = () => {
 
           <Route path="/header">
             <Header />
-          </Route>
-
-          <Route path="/about">
-            <About />
           </Route>
 
           <Route path="/meals">

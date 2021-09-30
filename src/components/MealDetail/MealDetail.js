@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import { useHistory, useParams } from "react-router";
+import "./MealDetail.css";
 
 const MealDetail = () => {
   const { mealId } = useParams();

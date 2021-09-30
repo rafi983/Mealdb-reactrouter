@@ -36,7 +36,7 @@ const Meals = () => {
 
       <Row xs={1} md={3} className="g-4 meals-container">
         {meals?.map((meal) => (
-          <Meal meal={meal}></Meal>
+          <Meal meal={meal} key={meal.name}></Meal>
         ))}
       </Row>
     </div>
