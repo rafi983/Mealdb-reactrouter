@@ -35,7 +35,7 @@ const MealDetail = () => {
           <Card.Title>{strMeal}</Card.Title>
           <Card.Text>{strCategory}</Card.Text>
           <Card.Text>{strIngredient1}</Card.Text>
-          <Card.Text>{strInstructions?.slice(0, 150)}</Card.Text>
+          <Card.Text>{strInstructions}</Card.Text>
         </Card.Body>
         <Button variant="primary" onClick={handleMeal}>
           See all meals

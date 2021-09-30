@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Navbar from "./components/Navbar/Navigation";
+import Navigation from "./components/NavMenu/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navigation />
     </div>
   );
 }
