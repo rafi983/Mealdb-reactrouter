@@ -9,12 +9,8 @@ const NavMenu = () => {
       <Container>
         <Navbar.Brand className="nav-brand">
           <NavLink
-            to="/header"
+            to="/home"
             style={{ textDecoration: "none", color: "#ff9e32" }}
-            activeStyle={{
-              fontWeight: "bold",
-              color: "white",
-            }}
           >
             TheMealdB
           </NavLink>
@@ -24,7 +20,7 @@ const NavMenu = () => {
           <Nav className="ms-auto">
             <Nav.Link className="nav-menu">
               <NavLink
-                to="/header"
+                to="/home"
                 style={{ textDecoration: "none", color: "#ff9e32" }}
                 activeStyle={{
                   fontWeight: "bold",

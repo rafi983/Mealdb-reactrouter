@@ -38,7 +38,7 @@ const MealDetail = () => {
           <Card.Text>{strIngredient1}</Card.Text>
           <Card.Text>{strInstructions}</Card.Text>
         </Card.Body>
-        <Button variant="primary" onClick={handleMeal}>
+        <Button variant="warning" onClick={handleMeal}>
           See all meals
         </Button>
       </Card>

@@ -17,15 +17,15 @@ const Navigation = () => {
             <Header />
           </Route>
 
-          <Route path="/header">
+          <Route exact path="/home">
             <Header />
           </Route>
 
-          <Route path="/meals">
+          <Route exact path="/meals">
             <Meals />
           </Route>
 
-          <Route path="/meal/:mealId">
+          <Route exact path="/meals/meal/:mealId">
             <MealDetail />
           </Route>
 

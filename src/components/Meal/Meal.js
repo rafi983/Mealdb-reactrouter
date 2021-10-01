@@ -16,7 +16,7 @@ const Meal = (props) => {
   const history = useHistory();
 
   const handleMealClick = () => {
-    history.push(`/meal/${idMeal}`);
+    history.push(`/meals/meal/${idMeal}`);
   };
   return (
     <Col>
@@ -28,7 +28,7 @@ const Meal = (props) => {
           <Card.Text>{strIngredient1}</Card.Text>
           <Card.Text>{strInstructions.slice(0, 250)}</Card.Text>
         </Card.Body>
-        <Button variant="primary" onClick={handleMealClick}>
+        <Button variant="warning" onClick={handleMealClick}>
           View details
         </Button>
       </Card>
